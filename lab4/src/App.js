@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Hey, what a cool react app!
+          Hey, what a cool react app! yay!
         </p>
         What does this number do? {count}
         <Card data={johnObj} increment={increment} decrement={decrement}/>
