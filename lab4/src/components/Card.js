@@ -1,3 +1,5 @@
+import styles from '../styles/card.css';
+
 export default function Card(props) {
     const data = props.data;
     const increment = props.increment;
@@ -11,7 +13,7 @@ export default function Card(props) {
 
     return (
         <div className="card">
-            <img src={img} className="card-img-top" alt={desc}/>
+            <img src={img} className={styles.card} alt={desc}/>
             <div className="card-body">
                 <h5 className="card-title">{name}, {age}</h5>
                 <p className="card-text">{major}</p>

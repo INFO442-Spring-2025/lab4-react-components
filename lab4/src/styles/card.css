@@ -1,0 +1,30 @@
+img {
+  max-width: 100%;
+}
+
+.card img {
+  width: 20rem;
+}
+
+/*Applies if viewport is less than 800px or doesn't support media queries*/
+.card-body {
+  background-color: red;
+}
+
+@media (min-width: 800px){
+  .card-body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1000px){
+  .card-body {
+    background-color: green;
+  }
+}
+
+
+
+
+
+

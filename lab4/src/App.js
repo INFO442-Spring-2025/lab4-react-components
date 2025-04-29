@@ -30,7 +30,7 @@ function App() {
         <p>
           Hey, what a cool react app! yay!
         </p>
-        What does this number do? {count}
+        <p>What does this number do? {count}</p>
         <Card data={johnObj} increment={increment} decrement={decrement}/>
       </header>
     </div>
