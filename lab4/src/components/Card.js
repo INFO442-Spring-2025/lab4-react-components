@@ -10,14 +10,14 @@ export default function Card(props) {
     const desc = data.desc;
 
     return (
-        <div class="card">
-            <img src={img} class="card-img-top" alt={desc}/>
-            <div class="card-body">
-                <h5 class="card-title">{name}, {age}</h5>
-                <p class="card-text">{major}</p>
-                <a href="https://canvas.uw.edu" class="btn btn-primary">Go to Canvas</a>
-                <button onClick={increment} class="btn btn-success">Go up 1</button>
-                <button onClick={decrement} class="btn btn-danger">Go down 1</button>
+        <div className="card">
+            <img src={img} className="card-img-top" alt={desc}/>
+            <div className="card-body">
+                <h5 className="card-title">{name}, {age}</h5>
+                <p className="card-text">{major}</p>
+                <a href="https://canvas.uw.edu" className="btn btn-primary">Go to Canvas</a>
+                <button onClick={increment} className="btn btn-success">Go up 1</button>
+                <button onClick={decrement} className="btn btn-danger">Go down 1</button>
             </div>
         </div>
     )
